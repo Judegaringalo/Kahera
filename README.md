@@ -1,2 +1,2 @@
 # Kahera
-Kahera a Unity/Blender game
+Kahera a horror game
