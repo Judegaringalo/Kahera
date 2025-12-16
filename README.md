@@ -1,2 +1,2 @@
 # Kahera
-Kahera a horror game
+Kahera a psychological horror game
