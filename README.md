@@ -1,8 +1,6 @@
 # Kahera 
 **A 3D Horror-Simulation Game built with Unity & C#**
 
-![Kahera Gameplay Demo]((https://youtu.be/4PKQ6NSoxu4))
-
 ## About The Game
 **Kahera** (The Cashier) is a first-person psychological horror simulation designed for mobile platforms. The player takes on the role of a night-shift cashier who must manage store duties while surviving a stalking entity. 
 
