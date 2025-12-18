@@ -46,5 +46,5 @@ This project was built as a collaborative effort by:
 * **Cornelius James Lasala** - [Character Design, Documentation, 3D Assets]
 * **Giann Villarosa** - [Documentation, Story]
 
----
+----
 *Note: This repository serves as a portfolio showcase. Some assets have been excluded for licensing reasons.*
