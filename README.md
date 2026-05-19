@@ -1,50 +1,60 @@
-# Kahera 
-**A 3D Horror-Simulation Game built with Unity & C#**
+# Kahera
 
-## About The Game
-**Kahera** (The Cashier) is a first-person psychological horror simulation designed for mobile platforms. The player takes on the role of a night-shift cashier who must manage store duties while surviving a stalking entity. 
+Kahera is a mobile first-person indie horror game built with **Unity**, **C#**, and **Blender**.
 
-Unlike standard jump-scare games, Kahera relies on atmosphere, physics-based interactions, and an unpredictable AI that learns the map layout.
+The game follows Maya, a part-time night-shift cashier trapped inside KantoMart during a supernatural lockdown. As the night progresses, the store becomes increasingly unsettling through flickering lights, strange sounds, moving objects, distorted reflections, and the presence of an unknown entity.
 
-## Key Technical Features
+## About the Game
 
-### State-Machine AI System
-The enemy utilizes a custom-built Finite State Machine (FSM) to switch between behaviors dynamically:
-* **Patrol State:** Randomly navigates waypoints in the store.
-* **Chase State:** Uses **NavMesh** pathfinding to pursue the player upon Line-of-Sight detection.
-* **Search State:** Investigates the last known player location if line-of-sight is broken.
-* *Code Reference:* `AI.cs`
+Kahera is a psychological horror walking simulator designed for Android devices. The game focuses on atmosphere, isolation, and suspense rather than combat or complicated mechanics.
 
-### Modular Interaction System (Physics Raycasting)
-Players can interact with the environment realistically. Instead of simple "press E to open" animations, I implemented physics-based manipulation:
-* **Doors:** Weight and hinge physics applied via Rigidbody calculations.
-* *Code Reference:* `DoorInteraction.cs`
+The player must explore the convenience store, witness paranormal events, and survive until morning.
 
-### Mobile Optimization
-Optimized for high-performance on mobile devices without sacrificing visual fidelity:
-* **Custom Input System:** Implemented virtual joysticks and touch-sensitivity scaling.
-* **Data Persistence:** Uses `PlayerPrefs` to save sensitivity settings and audio preferences locally.
-* *Code Reference:* `MobilePlayerMovement.cs`, `SettingsManager.cs`
+## Features
 
-### Atmospheric Procedural Effects
-* **Perlin Noise Lighting:** Implemented mathematical noise algorithms to create organic, non-repetitive flickering light effects for horror ambience (`FlickeringLight.cs`).
-* **Dynamic Audio Triggers:** Sound effects triggered by physics collisions (e.g., falling boxes) to alert the AI (`FallingBox.cs`).
+- First-person mobile horror gameplay
+- Atmospheric convenience store setting
+- Low-poly retro 3D horror style
+- Virtual joystick movement
+- Touch-based camera controls
+- Scripted jump scares and horror events
+- Flickering lights and environmental effects
+- NPC/customer encounters
+- Psychological horror focused on tension and uncertainty
+
+## Download and Play
+
+1. Download the `Kahera.apk` file from this repository.
+2. Install it on an Android device.
+3. Allow installation from unknown sources if required.
+4. Open the app and start the game.
+
+## Recommended Platform
+
+- Android device
+- Android 8.0 or higher recommended
+- At least 3GB RAM recommended for smoother gameplay
 
 ## Tech Stack
-* **Engine:** Unity 6 (6000.2.8f1)
-* **Language:** C#
-* **3D Modeling:** Blender
-* **Animation:** Mixamo
-* **Version Control:** Git & GitHub
 
-## How to Play (Developer Build)
-1.  Just Download the apk file in the repository.
+- **Engine:** Unity
+- **Language:** C#
+- **3D Assets:** Blender
+- **Animation Support:** Mixamo
+- **Platform:** Android
 
-## Credits & Collaboration
-This project was built as a collaborative effort by:
-* **Lester Jude Garingalo** - Lead Programmer (AI, Core Systems, UI)
-* **Cornelius James Lasala** - [Character Design, Documentation, 3D Assets]
-* **Giann Villarosa** - [Documentation, Story]
+## Scripts and Documentation
 
-----
-*Note: This repository serves as a portfolio showcase. Some assets have been excluded for licensing reasons.*
+The Unity scripts and documentation are available here:
+
+https://github.com/JudeGaringalo/Kahera-Scripts-Documentation
+
+## Team
+
+- **Jude Lester A. Garingalo**
+- **Cornelius James A. Lasala**
+- **Giann Miguel M. Villarosa**
+
+## Note
+
+This project was created for academic and portfolio purposes.
